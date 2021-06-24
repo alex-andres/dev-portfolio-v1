@@ -1,6 +1,6 @@
-@font-face{
+@font-face {
   font-family: 'Plus Jakarta Sans';
-  src: url(./assets/PlusJakartaSans-Medium.woff2)
+  src: url(./assets/PlusJakartaSans-Medium.woff2);
 }
 
 .App {
@@ -12,8 +12,6 @@
   pointer-events: none;
 }
 
-
-
 .App-header {
   background-color: #e4e2dc;
   min-height: 100vh;
@@ -24,4 +22,8 @@
   font-size: calc(10px + 2vmin);
   color: #134243;
   font-family: 'Plus Jakarta Sans';
+}
+a {
+  color: #418c86;
+  text-decoration: none;
 }

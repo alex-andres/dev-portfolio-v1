@@ -6,8 +6,15 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>Coming Soon</h1>
         <p>
-          Coming Soon
+          Inquiries?{' '}
+          <a
+            href="mailto:alex@aandres.dev"
+            title="Use your preferred email client to send me a message"
+          >
+            alex@aandres.dev
+          </a>
         </p>
       </header>
     </div>
